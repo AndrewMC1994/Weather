@@ -44,7 +44,7 @@ function geoLocation() {
 
 function weather(city){
   var url = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?";
-  var key = "3a53d3f03d189f460e7bd9e53adfa628"
+  var key = "a229c52b3bc5e73b9f47465d53b3511e"
   
   console.log(url + 'q=' + city + "&APPID=" + key +"&units=metric");
   
