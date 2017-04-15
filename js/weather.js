@@ -43,7 +43,7 @@ function geoLocation() {
 }
 
 function weather(city){
-  var url = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?";
+  var url = "http://api.openweathermap.org/data/2.5/weather?";
   var key = "a229c52b3bc5e73b9f47465d53b3511e"
   
   console.log(url + 'q=' + city + "&APPID=" + key +"&units=metric");
